@@ -1,0 +1,61 @@
+*{
+	/*margin-top: 100px;*/
+	scroll-behavior: smooth;
+	align-items: center;
+	justify-content: center;
+}
+/*.top{display: flex; overflow: hidden;min-height: 30vh;flex-direction: column-reverse;}*/
+.top img{
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	border-top-left-radius: 10px;
+	border-left: 2px solid tomato;
+	border-right: 2px solid tomato;
+	border-bottom-right-radius:10px;
+}
+.top h2 {
+	/*margin-top: 5px*/
+}
+.top{background: skyblue;  width: 100%;padding-top: 20px; margin-top: 38px; align-items: center;justify-content: center;text-align: center; border-radius: 15px; background: purple; border-bottom: red solid 4px; padding-bottom: 10px; padding-top: 13px; margin-top: 100px;}
+body{
+	background: #C70039 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.top h2 {
+	color: beige;
+}
+.top h2 a{
+	text-decoration: none;
+	color: azure;
+
+}
+.top h2 a:hover{
+	cursor: pointer;
+
+}
+/* note-book color = #FF5733 */
+
+.note{
+	display: flex;
+	width: 40em;
+	justify-content: center;
+	background: #FF5733;
+	height: 50vh;
+	flex-direction: column;
+	margin-top: 25px;
+	padding: 30px;
+	border-radius: 23px;
+	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+	text-transform: capitalize;
+}
+footer{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
